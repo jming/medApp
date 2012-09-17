@@ -8,7 +8,7 @@ Ext.define('medApp.store.terms', {
             return record.get('termName')[0];
         },
         data: [{
-            termName: 'Do you have chest pain?',
+            termName: 'Chest pain',
             categoryId: 0,
             englishText: 'Do you have chest pain?',
             spanishText: 'Tiene usted dolor del pecho?',
@@ -16,7 +16,7 @@ Ext.define('medApp.store.terms', {
             nativePron: 'Nee-tee-o-na rwak-k-oosh?',
             audioLocation: 'resources/audio/ping.mp3'
         }, {
-            termName: 'Where does it hurt?',
+            termName: 'Hurt location',
             categoryId: 0,
             englishText: 'Where does it hurt?',
             spanishText: 'Donde le duele?',

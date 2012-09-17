@@ -3,6 +3,7 @@ Ext.define('medApp.view.termDetail', {
     alias: 'widget.termDetail',
     id: 'termDetail',
     config: {
+        scrollable: true,
         items: [{
             xtype: 'titlebar',
             title: 'Med App',
@@ -21,7 +22,7 @@ Ext.define('medApp.view.termDetail', {
             padding: '10px',
             items: [{
                 xtype: 'fieldset',
-                config: {
+                defaults: {
                     labelAlign: 'top',
                     disabled: true
                 },
