@@ -8,20 +8,14 @@ Ext.define('medApp.store.categories', {
             return record.get('categoryName')[0];
         },
         data: [{
-            categoryName: 'A Cat',
+            categoryName: 'Cardiac Exam',
             categoryId: 0
         }, {
-            categoryName: 'B Cat',
+            categoryName: 'Neurologic Exam',
             categoryId: 1
         }, {
-            categoryName: 'C Cat',
+            categoryName: 'Obstetrical Exam',
             categoryId: 2
-        }, {
-            categoryName: 'D Cat',
-            categoryId: 3
-        }, {
-            categoryName: 'E Cat',
-            categoryId: 4
         }]
     }
 })

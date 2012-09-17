@@ -37,6 +37,10 @@ Ext.define('medApp.view.termDetail', {
                     xtype: 'textfield',
                     label: 'Native',
                     itemId: 'nativeTextLabel'
+                }, {
+                    xtype: 'textfield',
+                    label: 'Pronunciation',
+                    itemId: 'nativePronLabel'
                 }]
             }, 
 //                {

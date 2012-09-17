@@ -17,6 +17,9 @@ Ext.define('medApp.model.term', {
             name: 'nativeText',
             type: 'string'
         }, {
+            name: 'nativePron',
+            type: 'string'
+        }, {
             name: 'audioLocation',
             type: 'string'
         }]

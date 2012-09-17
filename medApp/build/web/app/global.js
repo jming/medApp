@@ -22,6 +22,7 @@ var helper = {
             Ext.ComponentQuery.query('termDetail #englishTextLabel')[0].setValue(record.get('englishText'))
             Ext.ComponentQuery.query('termDetail #spanishTextLabel')[0].setValue(record.get('spanishText'))
             Ext.ComponentQuery.query('termDetail #nativeTextLabel')[0].setValue(record.get('nativeText'))
+            Ext.ComponentQuery.query('termDetail #nativePronLabel')[0].setValue(record.get('nativePron'))
             // TODO: set handler
 //            Ext.ComponentQuery.query('termDetail #recordingButton')[0].setHandler(function () {
 //                helper.playAudio(record.get('audioLocation'))

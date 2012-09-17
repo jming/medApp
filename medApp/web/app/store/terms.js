@@ -8,74 +8,20 @@ Ext.define('medApp.store.terms', {
             return record.get('termName')[0];
         },
         data: [{
-            termName: 'A Term',
+            termName: 'Do you have chest pain?',
             categoryId: 0,
-            englishText: 'English',
-            spanishText: 'Spanish',
-            nativeText: 'Native',
+            englishText: 'Do you have chest pain?',
+            spanishText: 'Tiene usted dolor del pecho?',
+            nativeText: 'Nteona rawk\'ush?',
+            nativePron: 'Nee-tee-o-na rwak-k-oosh?',
             audioLocation: 'resources/audio/ping.mp3'
         }, {
-            termName: 'B Term',
-            categoryId: 1,
-            englishText: 'English',
-            spanishText: 'Spanish',
-            nativeText: 'Native',
-            audioLocation: 'resources/audio/ping.mp3'
-        }, {
-            termName: 'C Term',
-            categoryId: 2,
-            englishText: 'English',
-            spanishText: 'Spanish',
-            nativeText: 'Native',
-            audioLocation: 'resources/audio/ping.mp3'
-        }, {
-            termName: 'D Term',
-            categoryId: 3,
-            englishText: 'English',
-            spanishText: 'Spanish',
-            nativeText: 'Native',
-            audioLocation: 'resources/audio/ping.mp3'
-        }, {
-            termName: 'E Term',
-            categoryId: 4,
-            englishText: 'English',
-            spanishText: 'Spanish',
-            nativeText: 'Native',
-            audioLocation: 'resources/audio/ping.mp3'
-        }, {
-            termName: 'F Term',
+            termName: 'Where does it hurt?',
             categoryId: 0,
-            englishText: 'English',
-            spanishText: 'Spanish',
-            nativeText: 'Native',
-            audioLocation: 'resources/audio/ping.mp3'
-        }, {
-            termName: 'G Term',
-            categoryId: 1,
-            englishText: 'English',
-            spanishText: 'Spanish',
-            nativeText: 'Native',
-            audioLocation: 'resources/audio/ping.mp3'
-        }, {
-            termName: 'H Term',
-            categoryId: 2,
-            englishText: 'English',
-            spanishText: 'Spanish',
-            nativeText: 'Native',
-            audioLocation: 'resources/audio/ping.mp3'
-        }, {
-            termName: 'I Term',
-            categoryId: 3,
-            englishText: 'English',
-            spanishText: 'Spanish',
-            nativeText: 'Native',
-            audioLocation: 'resources/audio/ping.mp3'
-        }, {
-            termName: 'J Term',
-            categoryId: 4,
-            englishText: 'English',
-            spanishText: 'Spanish',
-            nativeText: 'Native',
+            englishText: 'Where does it hurt?',
+            spanishText: 'Donde le duele?',
+            nativeText: 'Bartra nteonua tra?',
+            nativePron: 'Bar-tra n\'tay-o-nu-a tra?',
             audioLocation: 'resources/audio/ping.mp3'
         }]
     }
